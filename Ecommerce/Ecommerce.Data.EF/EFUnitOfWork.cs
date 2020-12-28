@@ -11,7 +11,7 @@ namespace Ecommerce.Data.EF
         }
         public void Commit()
         {
-            _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
         public void Dispose()

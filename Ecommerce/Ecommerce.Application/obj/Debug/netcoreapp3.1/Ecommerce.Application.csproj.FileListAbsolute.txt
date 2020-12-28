@@ -1,0 +1,14 @@
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Application.deps.json
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Application.dll
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Application.pdb
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Data.dll
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Infrastructure.dll
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Data.pdb
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\bin\Debug\netcoreapp3.1\Ecommerce.Infrastructure.pdb
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.csprojAssemblyReference.cache
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.AssemblyInfoInputs.cache
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.AssemblyInfo.cs
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.csproj.CopyComplete
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.dll
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.pdb
+D:\Project\WebBanHang\Ecommerce\Ecommerce.Application\obj\Debug\netcoreapp3.1\Ecommerce.Application.csproj.CoreCompileInputs.cache
