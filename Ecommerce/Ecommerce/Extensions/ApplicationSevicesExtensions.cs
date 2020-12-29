@@ -1,7 +1,7 @@
 ﻿using Ecommerce.Application.Implementation;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Data.EF;
-using Ecommerce.Error;
+using Ecommerce.Errors;
 using Ecommerce.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,8 +13,13 @@ namespace Ecommerce.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
+
+            // Repository
             services.AddScoped(typeof(IUnitOfWork), typeof(EFUnitOfWork));
             services.AddScoped(typeof(IRepository<,>), typeof(EFRepository<,>));
+
+
+            // Services
             services.AddScoped<ITokenService, TokenService>();
 
             services.Configure<ApiBehaviorOptions>(options =>

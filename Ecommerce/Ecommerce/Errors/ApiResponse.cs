@@ -1,4 +1,4 @@
-﻿namespace Ecommerce.Error
+﻿namespace Ecommerce.Errors
 {
     public class ApiResponse
     {

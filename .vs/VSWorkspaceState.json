@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ecommerce",
+    "\\Ecommerce\\Ecommerce",
+    "\\Ecommerce\\Ecommerce\\Controllers",
+    "\\Ecommerce\\Ecommerce\\Controllers\\Admin"
+  ],
+  "SelectedNode": "\\Ecommerce\\Ecommerce\\Controllers\\Admin\\AccountController.cs",
+  "PreviewInSolutionExplorer": false
+}

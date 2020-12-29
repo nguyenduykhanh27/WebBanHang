@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Ecommerce.Error
+namespace Ecommerce.Errors
 {
     public class ApiValidationErrorResponse : ApiResponse
     {
