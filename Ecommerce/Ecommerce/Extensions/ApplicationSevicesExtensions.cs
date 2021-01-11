@@ -1,6 +1,8 @@
 ﻿using Ecommerce.Application.Implementation;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Data.EF;
+using Ecommerce.Data.EF.Repositories;
+using Ecommerce.Data.IRepositories;
 using Ecommerce.Errors;
 using Ecommerce.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -17,11 +19,11 @@ namespace Ecommerce.Extensions
             // Repository
             services.AddScoped(typeof(IUnitOfWork), typeof(EFUnitOfWork));
             services.AddScoped(typeof(IRepository<,>), typeof(EFRepository<,>));
-
+            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+       
 
             // Services
             services.AddScoped<ITokenService, TokenService>();
-
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = actionContext =>

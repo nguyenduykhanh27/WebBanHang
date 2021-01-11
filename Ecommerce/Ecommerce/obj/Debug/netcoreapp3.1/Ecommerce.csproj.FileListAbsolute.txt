@@ -86,3 +86,5 @@ D:\Project\WebBanHang\Ecommerce\Ecommerce\obj\Debug\netcoreapp3.1\Ecommerce.MvcA
 D:\Project\WebBanHang\Ecommerce\Ecommerce\obj\Debug\netcoreapp3.1\Ecommerce.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\WebBanHang\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\Ecommerce.Application.dll
 D:\Project\WebBanHang\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\Ecommerce.Application.pdb
+D:\Project\WebBanHang\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Project\WebBanHang\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

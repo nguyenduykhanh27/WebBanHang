@@ -3,7 +3,8 @@ using Ecommerce.Infrastructure.Interfaces;
 
 namespace Ecommerce.Data.IRepositories
 {
-    public interface IProductRepository : IRepository<Product,int>
+    public interface IProductCategoryRepository : IRepository<ProductCategory,int>
     {
+
     }
 }

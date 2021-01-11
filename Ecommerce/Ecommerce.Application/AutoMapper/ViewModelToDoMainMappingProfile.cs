@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Ecommerce.Application.Dtos;
+using Ecommerce.Data.Entities;
 
 namespace Ecommerce.Application.AutoMapper
 {
@@ -6,7 +8,7 @@ namespace Ecommerce.Application.AutoMapper
     {
         public ViewModelToDoMainMappingProfile()
         {
-
+            CreateMap<ProductDtos, Product>();
         }
     }
 }

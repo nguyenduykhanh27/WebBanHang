@@ -1,7 +1,7 @@
 ﻿using Ecommerce.Application.Dtos;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Data.Entities;
-using Ecommerce.Error;
+using Ecommerce.Errors;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;

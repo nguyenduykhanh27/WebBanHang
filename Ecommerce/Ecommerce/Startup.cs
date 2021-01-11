@@ -1,5 +1,7 @@
 using AutoMapper;
 using Ecommerce.Application.AutoMapper;
+using Ecommerce.Application.Implementation;
+using Ecommerce.Application.Interface;
 using Ecommerce.Data.EF;
 using Ecommerce.Data.Entities;
 using Ecommerce.Extensions;
@@ -58,6 +60,8 @@ namespace Ecommerce
 
            services.AddTransient<DbInitializer>();
             services.AddApplicationServices();
+            services.AddScoped<IProductCategoryService, ProductCategoryService>();
+
 
             var mappingConfig = AutoMapperConfig.RegisterMappings();
             IMapper mapper = mappingConfig.CreateMapper();
