@@ -24,6 +24,8 @@ namespace Ecommerce.Extensions
 
             // Services
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<Application.Interface.IProductCategoryService, ProductCategoryService>();
+
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = actionContext =>

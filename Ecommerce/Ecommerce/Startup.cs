@@ -60,7 +60,6 @@ namespace Ecommerce
 
            services.AddTransient<DbInitializer>();
             services.AddApplicationServices();
-            services.AddScoped<IProductCategoryService, ProductCategoryService>();
 
 
             var mappingConfig = AutoMapperConfig.RegisterMappings();
