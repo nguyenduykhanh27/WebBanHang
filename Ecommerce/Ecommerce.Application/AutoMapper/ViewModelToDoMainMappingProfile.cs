@@ -9,6 +9,7 @@ namespace Ecommerce.Application.AutoMapper
         public ViewModelToDoMainMappingProfile()
         {
             CreateMap<ProductDtos, Product>();
+            CreateMap<ProductCategoryDtos, ProductCategory>();
         }
     }
 }

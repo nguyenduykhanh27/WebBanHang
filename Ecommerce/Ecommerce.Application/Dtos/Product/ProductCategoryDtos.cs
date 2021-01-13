@@ -6,6 +6,7 @@ namespace Ecommerce.Application.Dtos
 {
     public class ProductCategoryDtos
     {
+        public int Id { get; set; }
         public string Name { get; set; }
 
         public string Description { get; set; }
@@ -26,7 +27,7 @@ namespace Ecommerce.Application.Dtos
         public string SeoAlias { set; get; }
         public string SeoKeywords { set; get; }
         public string SeoDescription { set; get; }
-
-        public virtual ICollection<ProductCategoryDtos> Products { set; get; }
+        public List<ProductCategoryDtos> Children { get; set; }
+        public virtual ICollection<ProductDtos> Products { set; get; }
     }
 }

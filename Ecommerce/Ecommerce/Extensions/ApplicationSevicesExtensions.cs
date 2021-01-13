@@ -19,7 +19,7 @@ namespace Ecommerce.Extensions
             // Repository
             services.AddScoped(typeof(IUnitOfWork), typeof(EFUnitOfWork));
             services.AddScoped(typeof(IRepository<,>), typeof(EFRepository<,>));
-            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
        
 
             // Services

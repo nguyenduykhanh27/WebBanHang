@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Ecommerce.Application.Dtos;
 using Ecommerce.Application.Interface;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace Ecommerce.Controllers.Admin
 {
@@ -20,6 +17,24 @@ namespace Ecommerce.Controllers.Admin
         public IActionResult GetAll(string keyword)
         {
             var model = _productCategoryService.GetAll(keyword);
+            return new OkObjectResult(model);
+        }
+        [HttpPost("InsertProductCategory")]
+        public IActionResult Add(ProductCategoryDtos productCategoryDtos)
+        {
+            _productCategoryService.Add(productCategoryDtos);
+            return Ok();
+        }
+        [HttpPost("Delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            _productCategoryService.Delete(id);
+            return Ok();
+        }
+        [HttpGet("GetProductHierachy")]
+        public IActionResult GetProductHierachy()
+        {
+            var model = _productCategoryService.GetProductCategoryHieararchy();
             return new OkObjectResult(model);
         }
     }
