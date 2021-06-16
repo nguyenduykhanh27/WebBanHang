@@ -1,7 +1,6 @@
 ﻿using Ecommerce.Application.Dtos;
 using Ecommerce.Application.Interface;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace Ecommerce.Controllers.Admin
 {
@@ -36,6 +35,12 @@ namespace Ecommerce.Controllers.Admin
         {
             var model = _productCategoryService.GetProductCategoryHieararchy();
             return new OkObjectResult(model);
+        }
+        [HttpPost("UpdateProduct")]
+        public IActionResult Update(ProductCategoryDtos productCategoryDtos)
+        {
+             _productCategoryService.Update(productCategoryDtos);
+            return Ok();
         }
     }
 }

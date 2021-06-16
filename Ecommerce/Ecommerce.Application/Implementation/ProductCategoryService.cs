@@ -79,7 +79,9 @@ namespace Ecommerce.Application.Implementation
 
         public void Update(ProductCategoryDtos productDtos)
         {
-            throw new System.NotImplementedException();
+            var productsUpdate = _mapper.Map<ProductCategoryDtos, ProductCategory>(productDtos);
+            _productCategoryRepository.Update(productsUpdate);
+            _unitOfWork.Commit();
         }
     }
 }
